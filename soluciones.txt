@@ -1,0 +1,6 @@
+1 Git log 
+2 mkdir capitulos
+echo (texto) > capitulos.txt
+3 git add .
+4 git commit -m "Añadido capitulo 1"
+5 git log 

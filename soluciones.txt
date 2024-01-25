@@ -1,3 +1,6 @@
+Daniel Ceña González
+https://github.com/Danibros2/Ejercicios-repositorios-2.git
+
 EJERCICIO 1
 
 1 Git log 
@@ -43,5 +46,5 @@ EJERCICIO 4
 
 3 git commit -m "Añadido capítulo 5 al índice."
 
-4 git diff HEAD~2..HEAD
+4 git annotate indice.txt
 

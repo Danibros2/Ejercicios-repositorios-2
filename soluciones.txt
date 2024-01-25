@@ -1,6 +1,47 @@
+EJERCICIO 1
+
 1 Git log 
+
 2 mkdir capitulos
-echo (texto) > capitulos.txt
+  cd capitulos
+echo Git es un sistema... > capitulo1.txt
+
 3 git add .
+
 4 git commit -m "Añadido capitulo 1"
+
 5 git log 
+
+
+EJERCICIO 2
+
+1 echo El flujo de trabajo... > capitulo2.txt
+
+2 git add .
+
+3 git commit -m "Añadido capítulo 2"
+
+4 git diff HEAD~2..HEAD
+
+
+EJERCICIO 3
+
+1 echo Git permite la... > capitulo3.txt
+
+2 git add .
+
+3 git commit -m "Añadido capítulo 3"
+
+4 git diff &lt;f6644b83f57b0858cc15d6a1df52a0a5a9c0739d>..HEAD
+
+
+EJERCICIO 4
+
+1 echo Capítulo 5 : Conceptos avanzados >> indice.txt
+
+2 git add.
+
+3 git commit -m "Añadido capítulo 5 al índice."
+
+4 git diff HEAD~2..HEAD
+
